@@ -86,7 +86,7 @@ WHERE t.quantity > 0
 
 
 -- =====================================================================
--- MODULE 1: MONTHLY RETAILER PERFORMANCE PACK
+-- MODULE 1: MONTHLY RETAILER PERFORMANCE REVIEW
 -- =====================================================================
 CREATE OR REPLACE TABLE retail_data.m1_period_dept AS
 WITH params AS (SELECT 0.03 AS plan_growth),
@@ -216,7 +216,7 @@ ORDER BY period_no;
 
 
 -- =====================================================================
--- MODULE 2: PROMO PLAN AND COMPLIANCE
+-- MODULE 2: TRADE PROMOTION & EXECUTION ANALYSIS
 -- ---------------------------------------------------------------------
 
 -- Creating Display Dimension table
