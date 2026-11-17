@@ -137,7 +137,7 @@ Only product-store pairs with enough normal sales to compare against (at least 2
 
 * **Dashboard 1: [Retailer Performance Pack](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/RetailerPerformancePack/Dashboard2) (Completed ✅)** — Period selector (1 to 12), KPI strip (sales, vs last year, vs plan, units, price per unit), sales trend versus last year and plan, price versus volume drivers by department, department scorecard, and the Key Finding and Recommended Action panel.
 * **Dashboard 2: [Dashboard 2: Promo Compliance \& Execution](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/PromoComplianceandExecution/Dashboard3?publish=yes) (Completed ✅)** — Promotion-type selector (all, display only, mailer only, display plus mailer), KPI strip, store verdict distribution, store scatter of lift versus volume, top 15 stores below chain performance, lift by display location and flyer position, and lift trend over time.
-* **Dashboard 3: Stock-Out \& Availability Alerts (Planned SOON)** — Likely out-of-stock detection from zero-sales weeks in regularly selling product-store pairs, prioritising promoted weeks.
+* **Dashboard 3: Stock-Out \& Availability Alerts (Planned)** — Likely out-of-stock detection from zero-sales weeks in regularly selling product-store pairs, prioritising promoted weeks.
 
 \---
 
