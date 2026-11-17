@@ -1,11 +1,11 @@
-# Retail Promotions \& Performance Analytics: Monthly Retailer Pack and Promo Compliance
+# Retail Promotions \& Performance Analytics: 
 
 An end-to-end retail insights portfolio project built on the **dunnhumby – The Complete Journey** dataset: **2.6M** purchase lines from 2,500 loyalty-card households over 102 weeks. It combines a BigQuery SQL pipeline, price and volume driver analysis, and a promotional execution scoring model, delivered through a two-page Tableau dashboard suite designed for retailer account teams and field teams.
 
 ## Quick Links \& Navigation
 
-* **Tableau Dashboard 1, Retailer Performance Pack:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/RetailerPerformancePack/Dashboard2)
-* **Tableau Dashboard 2, Promo Compliance \& Execution:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/PromoComplianceandExecution/Dashboard3?publish=yes)
+* **Tableau Dashboard 1, Retailer Performance Review:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/RetailerPerformanceReview/Dashboard2)
+* **Tableau Dashboard 2, Trade Promotion and Execution Analysis:** [View Live on Tableau Public](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/PromoComplianceandExecution/Dashboard3?publish=yes)
 * **BigQuery SQL Pipeline:** `sql/retail_insights_pipeline.sql`
 * **Source Data:** dunnhumby Source Files, *The Complete Journey*
 
@@ -13,14 +13,16 @@ An end-to-end retail insights portfolio project built on the **dunnhumby – The
 
 ## Dashboard Preview
 
-### Dashboard 1: Retailer Performance Pack
+### Dashboard 1: Retailer Performance Review
 
-<img width="1397" height="1055" alt="Screenshot 2026-11-17 195136" src="https://github.com/user-attachments/assets/01385014-3d07-46a9-8fab-82941650f76e" />
+<img width="1396" height="1052" alt="Screenshot 2026-11-17 212924" src="https://github.com/user-attachments/assets/a582846a-4caf-4514-946e-73a9053e8685" />
 
 
-### Dashboard 2: Promo Compliance \& Execution
+### Dashboard 2: Trade Promotion and Execution Analysis
 
-<img width="1385" height="1052" alt="Screenshot 2026-11-17 195318" src="https://github.com/user-attachments/assets/a5103eea-3d0b-4462-80fb-73d205a175f7" />
+<img width="1393" height="1050" alt="Screenshot 2026-11-17 212851" src="https://github.com/user-attachments/assets/9b68a428-8cd3-4f9a-8017-c552550e2d0c" />
+
+
 
 
 \---
@@ -51,7 +53,7 @@ An end-to-end retail insights portfolio project built on the **dunnhumby – The
 
 \---
 
-## Methodology: Module 1 – Monthly Retailer Performance Pack
+## Methodology: Module 1 – Monthly Retailer Performance Review
 
 * **Calendar:** Weeks 1 to 52 are Year 1 (last year) and weeks 53 to 102 are Year 2 (this year). Weeks are grouped into 4-week periods. Year 2 has only 50 weeks, so Period 13 is partial and like-for-like views use Periods 1 to 12.
 * **Plan:** Simulated as last year plus 3% (an adjustable parameter in the SQL), used to show gap to plan.
@@ -83,7 +85,7 @@ The Recommended Action text names the best and worst department by dollar change
 
 \---
 
-## Methodology: Module 2 – Promotional Compliance \& Execution
+## Methodology: Module 2 – Trade Promotion and Execution Analysis
 
 No store audit data exists in the dataset, so compliance is inferred from sales uplift: if a product was featured but sold no more than usual, the feature was probably not executed properly.
 
@@ -135,9 +137,8 @@ Only product-store pairs with enough normal sales to compare against (at least 2
 
 
 
-* **Dashboard 1: [Retailer Performance Pack](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/RetailerPerformancePack/Dashboard2) (Completed ✅)** — Period selector (1 to 12), KPI strip (sales, vs last year, vs plan, units, price per unit), sales trend versus last year and plan, price versus volume drivers by department, department scorecard, and the Key Finding and Recommended Action panel.
-* **Dashboard 2: [Dashboard 2: Promo Compliance \& Execution](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/PromoComplianceandExecution/Dashboard3?publish=yes) (Completed ✅)** — Promotion-type selector (all, display only, mailer only, display plus mailer), KPI strip, store verdict distribution, store scatter of lift versus volume, top 15 stores below chain performance, lift by display location and flyer position, and lift trend over time.
-* **Dashboard 3: Stock-Out \& Availability Alerts (Planned)** — Likely out-of-stock detection from zero-sales weeks in regularly selling product-store pairs, prioritising promoted weeks.
+* **Dashboard 1: [Retailer Performance Review](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/RetailerPerformanceReview/Dashboard2) (Completed ✅)** — Period selector (1 to 12), KPI strip (sales, vs last year, vs plan, units, price per unit), sales trend versus last year and plan, price versus volume drivers by department, department scorecard, and the Key Finding and Recommended Action panel.
+* **Dashboard 2: [Dashboard 2: Trade Promotion and Execution Analysis](https://public.tableau.com/app/profile/sam.rose.maria.selvam/viz/PromoComplianceandExecution/Dashboard3?publish=yes) (Completed ✅)** — Promotion-type selector (all, display only, mailer only, display plus mailer), KPI strip, store verdict distribution, store scatter of lift versus volume, top 15 stores below chain performance, lift by display location and flyer position, and lift trend over time.
 
 \---
 
